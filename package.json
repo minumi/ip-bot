@@ -1,8 +1,11 @@
 {
   "name": "ip-bot",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "bot.js",
   "license": "MIT",
+  "scripts": {
+      "start": "node bot.js"
+  },
   "dependencies": {
     "dotenv": "^8.2.0",
     "node-fetch": "^2.6.1",
